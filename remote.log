@@ -1,0 +1,1 @@
+a863fb4d-f5ca-4f00-9fed-29581863dca3 chunk=50MiB encryption=none externaltype=rclone name=gd-sig prefix=datasets/kwyk rclone_layout=lower target=gd-sig type=external timestamp=1603789869.595252s
