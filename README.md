@@ -3,7 +3,8 @@
 This dataset is used to train and evaluate the [kwyk](https://github.com/neuronets/kwyk) network. We are publishing it in the form of a [datalad](https://www.datalad.org/) dataset.
 The main folder includes two subfolders `rawdata` and `tfrecords`. The `rawdata` folder includes input images with the freesurfer segementation files. The `tfrecords` has the same files as in `rawdata` folder but they are saved as pair of `(image, segmetation)` in the form of tfrecords.
 The data in `tfrecords` folder is separated to train and test.
-To download data follow below steps,
+
+To download the data, you need to do following steps:
 
 ## 1. Setup the environment
 We highly recommend to create a separate environment for accessing the data. You need to install [datalad](https://www.datalad.org/), [git-annex](https://git-annex.branchable.com/) and [rclone](https://rclone.org/). Plesae check [here](https://handbook.datalad.org/en/latest/intro/installation.html#) to insttall datalad and it's dependencies based on your operating system.
